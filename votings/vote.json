@@ -1,0 +1,36 @@
+{
+    "cards":[
+        {
+            "card": 1,
+            "quest": "Best presentation of the day?",
+            "options": [
+                {
+                    "op": "Blockchain",
+                    "rollno1": "214g1a0563",
+                    "rollno2": "214g1a0501"
+                },
+                {
+                    "op": "Machine learning",
+                    "rollno1": "214g1a0553",
+                    "rollno2": "214g1a0531"
+                }
+            ]
+        },
+        {
+            "card": 2,
+            "quest": "Best role play?",
+            "options": [
+                {
+                    "op": "tmod",
+                    "rollno1": "214g1a0563",
+                    "rollno2": "none"
+                },
+                {
+                    "op": "evaluator",
+                    "rollno1": "224g1a0555",
+                    "rollno2": "none"
+                }
+            ]
+        }
+    ]
+}

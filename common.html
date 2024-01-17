@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Istok Web"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inria Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="styles/common.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="heading">Create Event</h1>
+    <h3 class="sub-heading">Event Name</h3>
+    <input type="text" class="text-box" placeholder="Event Name" />
+    <br />
+    <textarea class="text-area" placeholder="What's in you mind?.."></textarea>
+    <button type="button" class="btn animi-btn">Register</button>
+    <button type="button" class="btn-mini">Add</button>
+    <img src="images/IMG_20201021_221757.jpg" class="img-sq" />
+    <img src="images/IMG_20201021_221757.jpg" class="img-round animi-btn" />
+    <button type="button" class="follow-btn">Follow</button>
+    <p class="notify-msg">Abdul has sent you a message</p>
+    <br />
+    <div class="eve-card">
+      <img src="images/tech talks cover page.jpg" class="eve-img" />
+      <div class="eve-text">
+        <h3 class="eve-card-name">Tech Talks Event 1</h3>
+        <p class="eve-card-by">by Tech Talks</p>
+      </div>
+    </div>
+    <div class="club-card animi-btn">
+      <img src="images/tech talks cover page.jpg" class="club-img" />
+      <h3 class="club-card-name">Tech Talks</h3>
+    </div>
+    <br />
+    <p class="post-text">This is a post by sambar talk from tech talk</p>
+    <br />
+    <label class="custom-checkbox">
+      <input type="checkbox" id="checkbox1" class="checkbox-input" />
+      <i class="fa-regular fa-square"></i>
+      <i class="fa-solid fa-square-check"></i>
+    </label>
+
+    <label class="btn-check">
+      <input type="checkbox" id="cb1" class="checkbox-btn" />
+      <p class="btn-cb animi-btn">1st</p>
+    </label>
+
+    <label class="radio-label">
+      <input
+        type="radio"
+        name="highlight-radio"
+        value="option1"
+        class="radio-input"
+      />
+      <span class="radio-text">Option 1</span>
+    </label>
+
+    <label class="radio-label">
+      <input
+        type="radio"
+        name="highlight-radio"
+        value="option2"
+        class="radio-input"
+      />
+      <span class="radio-text">Option 2</span>
+    </label>
+
+    <div class="custom-select text-box">
+      <select>
+        <option value="option1">Membership Only</option>
+        <option value="option2">Everyone</option>
+        <!-- Add more options here -->
+      </select>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+      >
+        <path
+          d="M18.0002 8.99988L12.0002 14.9999L6.00024 8.99988"
+          stroke="#181515"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+    <button class="circle-button animi-btn">
+      <i class="fa fa-plus"></i>
+    </button>
+    <div class="club-posts">
+      <div class="club-post">
+        <div class="club-post-header">
+          <img
+            src="images/IMG_20201021_221757.jpg"
+            alt=""
+            class="club-poster-img"
+          />
+          <div class="club-poster-details">
+            <h3 class="poster-name">Mythreya C</h3>
+            <p class="by-club-name">Tech Talks</p>
+          </div>
+        </div>
+        <div class="club-post-body">
+          <p class="club-post-body-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <img
+            src="images/tech talks cover page.jpg"
+            alt=""
+            class="club-post-img"
+          />
+        </div>
+        <div class="club-post-footer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+    <label class="custom-radio-button">
+      <input type="radio" name="icon-radio" value="option1" checked />
+      <span class="radio-icon"><i class="fa fa-circle"></i></span>
+      Option 1
+    </label>
+
+    <label class="custom-radio-button">
+      <input type="radio" name="icon-radio" value="option2" />
+      <span class="radio-icon"><i class="fa fa-circle"></i></span>
+      Option 2
+    </label>
+    <label class="custom-radio-button">
+      <input type="radio" name="icon-radio" value="option3" />
+      <span class="radio-icon"><i class="fa fa-circle"></i></span>
+      Option 3
+    </label>
+  </body>
+</html>

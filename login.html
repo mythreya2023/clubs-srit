@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App Login Page</title>
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/login.css" />
+  </head>
+  <body>
+    <div class="signup-container">
+      <h1 class="app-name">App Name</h1>
+      <div class="button-group">
+        <button class="btn-login animi-btn">Login</button>
+        <button class="btn-signup animi-btn">Sign up</button>
+      </div>
+      <form class="login-form">
+        <input
+          type="text"
+          placeholder="Full Name"
+          id="signup-fullname"
+          class="lgn-txt text-box"
+          required
+        />
+        <input
+          type="email"
+          id="signup-mail"
+          placeholder="College Email ID"
+          class="lgn-txt text-box"
+          required
+        />
+        <input
+          type="password"
+          id="signup-pwd"
+          placeholder="Password"
+          class="text-box lgn-txt"
+          required
+        />
+        <input
+          type="password"
+          id="signup-cpwd"
+          placeholder="Confirm Password"
+          class="text-box lgn-txt"
+          required
+        />
+        <button
+          type="submit"
+          id="signup-btn"
+          class="btn-submit btn animi-btn lgn-btn"
+        >
+          Sign up
+        </button>
+      </form>
+    </div>
+    <div class="login-container">
+      <h1 class="app-name">App Name</h1>
+      <div class="button-group">
+        <button class="btn-login animi-btn">Login</button>
+        <button class="btn-signup animi-btn">Sign up</button>
+      </div>
+      <form class="login-form">
+        <input
+          type="email"
+          placeholder="Email ID"
+          id="login-mail"
+          class="lgn-txt text-box"
+          required
+        />
+        <input
+          type="password"
+          id="login-pwd"
+          placeholder="Password"
+          class="text-box lgn-txt"
+          required
+        />
+        <button
+          type="submit"
+          id="login-btn"
+          class="btn-submit btn animi-btn lgn-btn"
+        >
+          Log in
+        </button>
+      </form>
+      <a href="#" class="forgot-password">Forgot Password ?</a>
+    </div>
+    <script src="scripts/jquery-3.5.1.js"></script>
+    <script src="scripts/login.js"></script>
+  </body>
+</html>

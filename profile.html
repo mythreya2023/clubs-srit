@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Profile Page</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Istok Web"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inria Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/profile.css" />
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="header animi-btn">
+        <span class="back-arrow"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <path
+              d="M15 18L9 12L15 6"
+              stroke="black"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <h2 class="heading">Profile</h2>
+      </div>
+      <center>
+        <div class="profile-picture">
+          <img
+            src="images/IMG_20201021_221757.jpg"
+            alt="Profile Picture"
+            class="img-round"
+            style="width: 150px; height: 150px; margin: auto"
+          />
+          <span class="camera-icon animi-btn"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M23 19C23 19.5304 22.7893 20.0391 22.4142 20.4142C22.0391 20.7893 21.5304 21 21 21H3C2.46957 21 1.96086 20.7893 1.58579 20.4142C1.21071 20.0391 1 19.5304 1 19V8C1 7.46957 1.21071 6.96086 1.58579 6.58579C1.96086 6.21071 2.46957 6 3 6H7L9 3H15L17 6H21C21.5304 6 22.0391 6.21071 22.4142 6.58579C22.7893 6.96086 23 7.46957 23 8V19Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12 17C14.2091 17 16 15.2091 16 13C16 10.7909 14.2091 9 12 9C9.79086 9 8 10.7909 8 13C8 15.2091 9.79086 17 12 17Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="profile-name-id">
+          <h3 class="profile-name">Mythreya C</h3>
+          <p class="profile-id">214g1a0563</p>
+        </div>
+      </center>
+      <div class="profile-details">
+        <div class="detail-item">
+          <span class="detail-item-name">Details</span>
+          <span class="item-icon animi-btn" id="details-down">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 20"
+              fill="none"
+            >
+              <path
+                d="M6 9L12 15L18 9"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="person-details">
+          <table class="user-details">
+            <tr>
+              <td style="font-weight: bold; color: darkslategray">Year</td>
+              <td>2nd</td>
+            </tr>
+            <tr>
+              <td style="font-weight: bold; color: darkslategray">Branch</td>
+              <td>C.S.E</td>
+            </tr>
+            <tr>
+              <td style="font-weight: bold; color: darkslategray">Type</td>
+              <td>Regular</td>
+            </tr>
+            <tr>
+              <td style="font-weight: bold; color: darkslategray">Roll No</td>
+              <td>563</td>
+            </tr>
+          </table>
+        </div>
+        <div style="border-bottom: 1px solid #9d9a9a98"></div>
+        <div class="detail-item">
+          <span class="detail-item-name">Edit Profile Details</span>
+          <span class="item-icon animi-btn"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="17"
+              height="17"
+              viewBox="0 0 17 17"
+              fill="none"
+            >
+              <g clip-path="url(#clip0_28_102)">
+                <path
+                  d="M12.0417 2.125C12.2277 1.93896 12.4486 1.79139 12.6916 1.6907C12.9347 1.59002 13.1952 1.5382 13.4583 1.5382C13.7214 1.5382 13.9819 1.59002 14.225 1.6907C14.4681 1.79139 14.6889 1.93896 14.875 2.125C15.061 2.31104 15.2086 2.5319 15.3093 2.77497C15.41 3.01804 15.4618 3.27857 15.4618 3.54167C15.4618 3.80477 15.41 4.06529 15.3093 4.30836C15.2086 4.55143 15.061 4.77229 14.875 4.95833L5.31249 14.5208L1.41666 15.5833L2.47916 11.6875L12.0417 2.125Z"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_28_102">
+                  <rect width="17" height="17" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="profile-btns">
+        <div class="saved-posts-btn animi-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            style="margin-top: 8px"
+          >
+            <path
+              d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z"
+              stroke="#221E1E"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              fill="none"
+            />
+          </svg>
+        </div>
+        <div class="participations-tab-btn animi-btn">
+          <p class="ptb-txt">Participations</p>
+        </div>
+      </div>
+      <div class="saved-posts">
+        <div class="club-post">
+          <div class="club-post-header">
+            <img
+              src="images/IMG_20201021_221757.jpg"
+              alt=""
+              class="club-poster-img"
+            />
+            <div class="club-poster-details">
+              <h3 class="poster-name">Mythreya C</h3>
+              <p class="by-club-name">Tech Talks</p>
+            </div>
+          </div>
+          <div class="club-post-body">
+            <p class="club-post-body-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <img
+              src="images/tech talks cover page.jpg"
+              alt=""
+              class="club-post-img"
+            />
+          </div>
+          <div class="club-post-footer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="animi-btn"
+            >
+              <path
+                d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="club-post">
+          <div class="club-post-header">
+            <img
+              src="images/IMG_20201021_221757.jpg"
+              alt=""
+              class="club-poster-img"
+            />
+            <div class="club-poster-details">
+              <h3 class="poster-name">Mythreya C</h3>
+              <p class="by-club-name">Tech Talks</p>
+            </div>
+          </div>
+          <div class="club-post-body">
+            <p class="club-post-body-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <img
+              src="images/tech talks cover page.jpg"
+              alt=""
+              class="club-post-img"
+            />
+          </div>
+          <div class="club-post-footer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              class="animi-btn"
+            >
+              <path
+                d="M19 21L12 16L5 21V5C5 4.46957 5.21071 3.96086 5.58579 3.58579C5.96086 3.21071 6.46957 3 7 3H17C17.5304 3 18.0391 3.21071 18.4142 3.58579C18.7893 3.96086 19 4.46957 19 5V21Z"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="participations-tab">
+        <div class="event animi-btn">
+          <img src="images/tech talks cover page.jpg" class="event-img" />
+          <div class="event-info">
+            <div class="eve-name">Github Workshop</div>
+            <div class="eve-by">
+              <span>by Internet Society</span>
+              <span>24 Jan 2024 </span>
+            </div>
+          </div>
+          <span class="arrow-right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div class="event animi-btn">
+          <img src="images/tech talks cover page.jpg" class="event-img" />
+          <div class="event-info">
+            <div class="eve-name">Github Workshop</div>
+            <div class="eve-by">
+              <span>by Internet Society</span>
+              <span>24 Jan 2024 </span>
+            </div>
+          </div>
+          <span class="arrow-right">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M9 18L15 12L9 6"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/jquery-3.5.1.js"></script>
+    <script src="scripts/profile.js"></script>
+  </body>
+</html>

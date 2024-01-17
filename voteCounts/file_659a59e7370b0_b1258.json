@@ -1,0 +1,40 @@
+{
+    "cards": [
+        {
+            "card": 1,
+            "quest": "Best Presenter ",
+            "options": [
+                {
+                    "op": "Mythreya",
+                    "count": 5
+                },
+                {
+                    "op": "Abdul k",
+                    "count": 2
+                },
+                {
+                    "op": "Navya",
+                    "count": 3
+                }
+            ]
+        },
+        {
+            "card": 2,
+            "quest": "Best Role Play",
+            "options": [
+                {
+                    "op": "Navya",
+                    "count": 4
+                },
+                {
+                    "op": "Jahnavi",
+                    "count": 2
+                },
+                {
+                    "op": "Sharath",
+                    "count": 3
+                }
+            ]
+        }
+    ]
+}
